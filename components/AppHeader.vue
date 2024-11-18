@@ -4,7 +4,7 @@
       <div class="flex justify-between h-16">
         <!-- Logo -->
         <div class="flex-shrink-0 flex items-center">
-          <NuxtLink to="/" class="text-xl font-bold text-blue-500">Portofolio</NuxtLink>
+          <NuxtLink to="/" class="text-xl font-bold text-blue-500">Portfolio</NuxtLink>
         </div>
 
         <!-- Mobile menu button -->
@@ -52,18 +52,11 @@
             Home
           </NuxtLink>
           <NuxtLink
-            to="/about"
+            to="/projects"
             class="text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium flex justify-center items-center"
             active-class="text-blue-600"
           >
-            About
-          </NuxtLink>
-          <NuxtLink
-            to="/posts"
-            class="text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium flex justify-center items-center"
-            active-class="text-blue-600"
-          >
-            Post
+            Projects
           </NuxtLink>
         </div>
       </div>
@@ -84,18 +77,11 @@
           Home
         </NuxtLink>
         <NuxtLink
-          to="/about"
+          to="/projects"
           class="text-gray-500 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
           active-class="text-blue-600"
         >
-          About
-        </NuxtLink>
-        <NuxtLink
-          to="/post"
-          class="text-gray-500 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
-          active-class="text-blue-600"
-        >
-          Post
+        Projects
         </NuxtLink>
       </div>
     </div>
